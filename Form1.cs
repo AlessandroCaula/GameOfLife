@@ -1128,8 +1128,7 @@ namespace GameOfLife
                         yEndPointForPaste = this.startingValuesToPlot.Length - 1;
 
 
-                    // Loop through all the rows and column of the startingValuesToPlot matrix, and paste the copied sub-matrix.
-                    bool isTheClickedCellIncluded = false;
+                    //// Loop through all the rows and column of the startingValuesToPlot matrix, and paste the copied sub-matrix.
                     int rowInCopiedMtx = 0;
                     for (int row = 0; row < this.startingValuesToPlot.Length; row++)
                     {
@@ -1141,10 +1140,6 @@ namespace GameOfLife
                             {
                                 if (col >= xStartIdxForPaste && col <= xEndPointForPaste)
                                 {
-                                    // Check if we are passing through the initial xIdxCtrlV and yIdxCtrlV. If not, then we will remove this from the final startingValuesToPlot.
-                                    if (row == yIdxCtrlV && col == xIdxCtrlV)
-                                        isTheClickedCellIncluded = true;
-
                                     // Copy the copiedMatrix into the startingValueToPlot matrix.
                                     if (this.copyPasteStartingValuesToPlot[rowInCopiedMtx][colInCopiedMtx] != 0)
                                     {
