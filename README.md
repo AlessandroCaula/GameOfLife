@@ -10,9 +10,6 @@ Every cell interacts with its eight neighbors, which are the cells that horizont
 3) Any live cell with more than three live neighbors dies, as if by overpopulation. 
 4) Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction. 
 
-!!!!!!!!! To launch the program, download the entire GameOfLifeForm folder. !!!!!!!!!!!!!    
-!!!!!!!!! The Executable is in: GameOfLife\bin\Debug\GameOfLife.exe !!!!!!!!!!!!!!!!!
-
 Implemented Command:
 - Left mouse click --> Select / Make Cell Alive 
 - Right mouse click --> Erase / Kill Cell
