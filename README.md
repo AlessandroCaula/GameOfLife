@@ -11,10 +11,12 @@ Every cell interacts with its eight neighbors, which are the cells that horizont
 4) Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction. 
 
 <br>
+
 <div style='display:flex; justify-content:space-between;'>
-    <img src='./assets/images/GameOfLife_1.gif' alt='GIF 1'>
-    <img src='./assets/images/GameOfLife_2.gif' alt='GIF 2'>
+    <img src='./assets/images/GameOfLife_1.gif' alt='GIF 1' style='flex:1; max-width:45%; height:auto;'>
+    <img src='./assets/images/GameOfLife_2.gif' alt='GIF 2' style='flex:1; max-width:45%; height:auto;>
 </div>
+        
 <br>
 
 ### Implemented Command:
