@@ -12,9 +12,9 @@ Every cell interacts with its eight neighbors, which are the cells that horizont
 
 <br>
 
-<div style='display:flex; justify-content:space-between;'>
-    <img src='./assets/images/GameOfLife_1.gif' alt='GIF 1' style='flex:1; max-width:45%; height:auto;'>
-    <img src='./assets/images/GameOfLife_2.gif' alt='GIF 2' style='flex:1; max-width:45%; height:auto;>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+    <img src='./assets/images/GameOfLife_1.gif' alt='GIF 1' style="width: 100%; height: auto;"/>
+    <img src='./assets/images/GameOfLife_2.gif' alt='GIF 2' style="width: 100%; height: auto;"/>
 </div>
         
 <br>
