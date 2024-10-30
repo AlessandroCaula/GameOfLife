@@ -20,11 +20,11 @@ Every cell interacts with its eight neighbors, which are the cells that horizont
 <br>
 
 ### Implemented Command:
-- Left mouse click --> Select / Make Cell Alive 
-- Right mouse click --> Erase / Kill Cell
-- Ctrl + Right mouse click + Drag --> Select Multiple Cell
-- Ctrl + C or X (After Multiple Cell Selection) --> Copy / Cut Selected Cells
-- Ctrl + V --> Paste Selected Cells
+- Left mouse click &rarr; Select / Make Cell Alive 
+- Right mouse click &rarr; Erase / Kill Cell
+- Ctrl + Right mouse click + Drag &rarr; Select Multiple Cell
+- Ctrl + C or X (After Multiple Cell Selection) &rarr; Copy / Cut Selected Cells
+- Ctrl + V &rarr; Paste Selected Cells
 
 
 For more Patterns to upload:
