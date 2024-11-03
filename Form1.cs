@@ -255,7 +255,7 @@ namespace GameOfLife
             this.Controls.Add(heatmapChartControl);
             heatmapChartControl.BringToFront();
 
-            // --- BOTTOM PANELS which will contain the Generation counter, some spin edit about Velocity and 
+            // --- BOTTOM PANELS which will contain the Generation counter, some spin edit about Velocity and Dimension
             // LEFT PANEL
             this.bottomLeftPanelControl = new PanelControl();
             // Size Controls
@@ -465,16 +465,14 @@ namespace GameOfLife
                 prevGenValues = this.currGenValuesToPlot;
             else
                 prevGenValues = this.startingValuesToPlot;
-            // Iterate the Game Of Life rules 5 times
 
+            // Main itaration of the GameOfLife
             while (this.keepIteratig)
             {
                 // Sleep the Thread for 300 ms.
                 Thread.Sleep(this.timerSpeedMilliSecond);
                 // Call the method with the instruction for the Game Of Life
                 this.currGenValuesToPlot = GameOfLifeGenerationComputation(prevGenValues);
-                // Plot the current Generation Values
-                //AssignValuesToPlot(this.currGenValuesToPlot);
                 // Update the previous generation.
                 prevGenValues = this.currGenValuesToPlot;
                 // Increase the generation Count.
