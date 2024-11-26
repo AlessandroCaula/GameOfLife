@@ -25,6 +25,8 @@ Every cell interacts with its eight neighbors, which are the cells that horizont
 - `Ctrl + Right mouse click + Drag` &rarr; Select Multiple Cell
 - `Ctrl + C or X (After Multiple Cell Selection)` &rarr; Copy / Cut Selected Cells
 - `Ctrl + V` &rarr; Paste Selected Cells
+- `Upload` from file
+- `Export` to file
 
 
 For more Patterns to upload:
